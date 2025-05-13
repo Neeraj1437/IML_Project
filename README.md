@@ -43,7 +43,10 @@ Both are tested under an **active learning** framework using a modified **LeNet-
 
 
 # edge_pop.ipynb
+
 # Edge-Pop: Active Learning with Subnetwork Sparsity
+
+![Experiment 1](methology\edge_pop_al.png)
 
 This project implements Edge-Popup subnetworks within a LeNet-5 architecture on the CIFAR-10 dataset using Active Learning. The idea is to learn sparse subnetworks (Edge-Popup networks) that can approximate the performance of the full network, while significantly reducing parameter count and computational cost.
 
@@ -135,6 +138,10 @@ Bar chart saved to: `Edge-Pop_0.5_2/model_comparison.png`
 # LeNet-5 Structured Pruning with Active Learning
 
 ## Overview
+
+
+![Experiment 2](methology\LTH_onshot_al.png)
+![Experiment 3](methology\LTH_Iterative_al.png)
 
 This project implements **structured pruning** and **active learning** on a LeNet-5 model trained on the CIFAR-10 dataset. It uses iterative pruning based on the Lottery Ticket Hypothesis (LTH), combined with uncertainty-based sample selection to improve training efficiency and model compactness.
 
