@@ -1,4 +1,39 @@
 
+
+## Exploring Sparse Sub-Networks in Deep Learning through Edge-Popup, Lottery Ticket Hypothesis, and Active Learning
+
+> Authors: Neeraj Rajiv Shivam, Tanmay M S  
+> Institution: School of Computer Science and Engineering, RV University, Bengaluru, India
+
+---
+
+##  Overview
+
+This project investigates how **sparse neural subnetworks** can match the performance of dense networks, while being more efficient in terms of computation and labeled data usage.  
+We explore two powerful techniques:
+- **Edge-Popup Algorithm** (Ramanujan et al.)  
+- **Lottery Ticket Hypothesis (LTH)** (Frankle & Carbin)
+
+We try to experiment with these two methodologies combing with active learning,
+we tried using the subnetowrks to pick most imformative data samples via least confidence sampleing trying to find subnetworks with a limited pool of labeled data.
+
+Both are tested under an **active learning** framework using a modified **LeNet-5** on the **CIFAR-10** dataset.
+
+---
+
+##  Key Objectives
+
+- Identify performant sparse subnetworks **at initialization** (Edge-Popup)
+- Compare **structured pruning-based subnetworks** (LTH)
+- Integrate **least-confidence active learning** to reduce labeled data needs
+- Measure **accuracy vs. sparsity vs. FLOPs** across subnetworks
+
+---
+
+
+
+## Project Structure
+
 ```
 5_IML_project/
 │
@@ -6,10 +41,13 @@
 ├── Lent5_LTH.ipynb   # LeNet-5 Structured Pruning with Active Learning
 ```
 
+
 # edge_pop.ipynb
 # Edge-Pop: Active Learning with Subnetwork Sparsity
 
 This project implements Edge-Popup subnetworks within a LeNet-5 architecture on the CIFAR-10 dataset using Active Learning. The idea is to learn sparse subnetworks (Edge-Popup networks) that can approximate the performance of the full network, while significantly reducing parameter count and computational cost.
+
+
 
 ## Overview
 
