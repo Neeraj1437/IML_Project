@@ -1,10 +1,10 @@
 
-
+```
 5_IML_project/
 │
 ├── Edge_pop.ipynb    # Edge-Pop: Active Learning with Subnetwork Sparsity
 ├── Lent5_LTH.ipynb   # LeNet-5 Structured Pruning with Active Learning
-
+```
 
 # edge_pop.ipynb
 # Edge-Pop: Active Learning with Subnetwork Sparsity
