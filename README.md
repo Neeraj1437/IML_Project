@@ -35,7 +35,7 @@ Both are tested under an **active learning** framework using a modified **LeNet-
 ## Project Structure
 
 ```
-5_IML_project/
+edge-lottery-al/
 │
 ├── Edge_pop.ipynb    # Edge-Pop: Active Learning with Subnetwork Sparsity
 ├── Lent5_LTH.ipynb   # LeNet-5 Structured Pruning with Active Learning
